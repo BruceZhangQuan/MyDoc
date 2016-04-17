@@ -1,0 +1,3 @@
+模式一：即一对多的关系。一般是XX和XXMgr。有时候XX与XX之间还有依赖关系。在totoro中，App与AppServer即是这样的关系
+
+模式二：从持久化加载配置信息初始化对象。AppConf与App的关系
